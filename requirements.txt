@@ -1,3 +1,6 @@
 anthropic>=0.102.0
 pydantic>=2.0
 pyyaml>=6.0
+
+# tests only
+pytest>=7.0

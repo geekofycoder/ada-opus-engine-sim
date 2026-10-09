@@ -1,4 +1,4 @@
-# Ada_Opus_engine_sim
+# ada-opus-engine-sim
 
 A symptom-to-disease predictor. Claude writes the knowledge base once per
 complaint; a Bayesian engine then runs the consultation with no model involved.
@@ -9,13 +9,17 @@ complaint; a Bayesian engine then runs the consultation with no model involved.
 ## 1. Install
 
 ```bash
-cd Ada_Opus_engine_sim
+cd ada-opus-engine-sim
 pip install -r requirements.txt
 ```
 
 ## 2. Add your key
 
-Open `.env` and paste your key after the `=` sign:
+```bash
+cp .env.example .env
+```
+
+Then open `.env` and paste your key after the `=` sign:
 
 ```
 ANTHROPIC_API_KEY=sk-ant-...
@@ -55,7 +59,7 @@ python cli.py --complaint "my knee hurts" --sex male --age 58
 
 ## Try it without a key
 
-One rulebook ships with the repo, so this runs with zero API calls:
+Five rulebooks ship with the repo, so this runs with zero API calls:
 
 ```bash
 python cli.py --complaint "dizzy" --sex female --age 34 \
