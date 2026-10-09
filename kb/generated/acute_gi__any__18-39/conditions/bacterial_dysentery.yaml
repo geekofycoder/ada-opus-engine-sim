@@ -1,0 +1,50 @@
+id: bacterial_dysentery
+name: Bacterial dysentery (blood-and-mucus diarrhoea)
+prior: 0.08
+must_not_miss: true
+choices:
+  pain_location:
+  - 0.02
+  - 0.05
+  - 0.01
+  - 0.05
+  - 0.82
+  - 0.05
+  illness_duration:
+  - 0.02
+  - 0.13
+  - 0.5
+  - 0.32
+  - 0.03
+  stool_pattern:
+  - 0.0
+  - 0.1
+  - 0.2
+  - 0.7
+  - 0.0
+findings:
+  fever:
+    p: 0.75
+    note: invasive infection
+  vomiting:
+    p: 0.35
+  others_ill:
+    p: 0.3
+  recent_travel:
+    p: 0.4
+  sudden_onset_hours_after_food:
+    p: 0.2
+  severe_constant_pain:
+    p: 0.2
+  pain_worse_on_movement:
+    p: 0.1
+  symptoms_improving:
+    p: 0.15
+  dizzy_on_standing:
+    p: 0.3
+  unable_to_keep_fluids_down:
+    p: 0.15
+  black_tarry_or_vomited_blood:
+    p: 0.03
+  urinary_symptoms_or_flank_pain:
+    p: 0.03

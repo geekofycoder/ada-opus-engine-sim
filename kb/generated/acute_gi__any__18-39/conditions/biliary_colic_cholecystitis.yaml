@@ -1,0 +1,46 @@
+id: biliary_colic_cholecystitis
+name: Gallbladder attack
+prior: 0.04
+must_not_miss: true
+choices:
+  pain_location:
+  - 0.01
+  - 0.02
+  - 0.75
+  - 0.17
+  - 0.04
+  - 0.01
+  illness_duration:
+  - 0.2
+  - 0.35
+  - 0.3
+  - 0.13
+  - 0.02
+  stool_pattern:
+  - 0.7
+  - 0.15
+  - 0.03
+  - 0.02
+  - 0.1
+findings:
+  severe_constant_pain:
+    p: 0.7
+  vomiting:
+    p: 0.6
+  fever:
+    p: 0.35
+  sudden_onset_hours_after_food:
+    p: 0.5
+    note: often after a fatty meal
+  others_ill:
+    p: 0.02
+  pain_worse_on_movement:
+    p: 0.35
+  black_tarry_or_vomited_blood:
+    p: 0.01
+  recent_travel:
+    p: 0.04
+  heartburn_or_gnawing_hunger_pain:
+    p: 0.2
+  symptoms_improving:
+    p: 0.3

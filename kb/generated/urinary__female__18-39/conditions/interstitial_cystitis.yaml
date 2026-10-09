@@ -1,0 +1,53 @@
+id: interstitial_cystitis
+name: Bladder pain syndrome (interstitial cystitis)
+prior: 0.05
+must_not_miss: false
+choices:
+  pain_location:
+  - 0.65
+  - 0.02
+  - 0.2
+  - 0.13
+  symptom_duration:
+  - 0.01
+  - 0.02
+  - 0.07
+  - 0.2
+  - 0.7
+  fever_level:
+  - 0.96
+  - 0.03
+  - 0.01
+findings:
+  burning_urination:
+    p: 0.5
+  frequency_small_amounts:
+    p: 0.9
+  urgency:
+    p: 0.8
+  visible_blood:
+    p: 0.05
+  cloudy_foul_urine:
+    p: 0.05
+    note: urine stays clear because there is no infection
+  nausea_vomiting:
+    p: 0.05
+  pain_in_waves:
+    p: 0.05
+  vaginal_discharge:
+    p: 0.05
+  vulval_itch_soreness:
+    p: 0.05
+  deep_pain_during_sex:
+    p: 0.4
+  pain_relieved_by_emptying:
+    p: 0.8
+    note: pain filling up and relieved by voiding is the hallmark
+  nocturia:
+    p: 0.6
+  leaking_urine:
+    p: 0.15
+  very_thirsty_large_volumes:
+    p: 0.03
+  flank_tender_to_touch:
+    p: 0.03

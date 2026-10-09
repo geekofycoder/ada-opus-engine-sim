@@ -1,0 +1,28 @@
+id: vasovagal_presyncope
+name: Vasovagal presyncope
+prior: 0.12
+must_not_miss: false
+choices:
+  episode_duration:
+  - 0.7
+  - 0.25
+  - 0.03
+  - 0.02
+findings:
+  lightheaded:
+    p: 0.95
+  nausea:
+    p: 0.7
+  trig_standing:
+    p: 0.5
+  spinning:
+    p: 0.05
+    note: RULE-OUT
+  palpitations:
+    p: 0.25
+  trig_head_move:
+    p: 0.05
+  hearing_change:
+    p: 0.01
+  neuro_speech_vision:
+    p: 0.01

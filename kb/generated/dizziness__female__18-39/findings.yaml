@@ -1,0 +1,61 @@
+episode_duration:
+  type: choice
+  question: How long does each episode of dizziness last?
+  definition: The length of ONE episode, not how many days you have had the problem.
+  options:
+    seconds: Seconds
+    minutes: Minutes
+    hours: Hours
+    days_or_constant: Days, or it never stops
+spinning:
+  type: noul
+  question: Does the room feel like it is spinning or moving around you?
+  definition: A sense of motion. Different from feeling faint or woozy.
+lightheaded:
+  type: noul
+  question: Do you feel like you might faint or black out?
+  definition: A woozy, about-to-pass-out feeling, with no spinning.
+trig_head_move:
+  type: noul
+  question: Does it start when you turn your head or roll over in bed?
+  definition: A clear trigger from changing head position.
+trig_standing:
+  type: noul
+  question: Does it happen when you stand up from sitting or lying?
+  definition: Starts within seconds of standing up.
+hearing_change:
+  type: noul
+  question: Has your hearing changed, or does one ear feel full?
+  definition: New hearing loss or fullness, usually on one side.
+tinnitus:
+  type: noul
+  question: Do you hear ringing or buzzing in your ears?
+  definition: A sound with no external source.
+recent_viral:
+  type: noul
+  question: Have you had a cold or flu in the last 2 weeks?
+  definition: Any recent viral illness.
+neuro_speech_vision:
+  type: noul
+  question: Have you had double vision or slurred speech?
+  definition: New difficulty seeing double or speaking clearly.
+limb_weakness:
+  type: noul
+  question: Any new weakness or numbness in an arm, leg or your face?
+  definition: New one-sided weakness or numbness.
+unsteady_walk:
+  type: noul
+  question: Are you unsteady or veering to one side when you walk?
+  definition: Balance trouble on your feet, separate from the dizzy feeling.
+palpitations:
+  type: noul
+  question: Does your heart race, pound or skip beats with it?
+  definition: Awareness of your heartbeat being fast or irregular.
+nausea:
+  type: noul
+  question: Do you feel sick to your stomach with it?
+  definition: Feeling like vomiting. Separate from actually vomiting.
+worse_exertion:
+  type: noul
+  question: Is it worse when you exert yourself, like climbing stairs?
+  definition: A clear link between physical effort and the dizziness.

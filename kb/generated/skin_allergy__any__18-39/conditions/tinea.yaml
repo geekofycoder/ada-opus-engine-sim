@@ -1,0 +1,54 @@
+id: tinea
+name: Fungal skin infection (ringworm / jock itch / athlete's foot)
+prior: 0.15
+must_not_miss: false
+choices:
+  rash_location:
+  - 0.03
+  - 0.15
+  - 0.2
+  - 0.15
+  - 0.45
+  - 0.02
+  rash_duration:
+  - 0.02
+  - 0.08
+  - 0.3
+  - 0.4
+  - 0.2
+  spot_lifespan:
+  - 0.02
+  - 0.35
+  - 0.63
+findings:
+  ring_shaped_clear_centre:
+    p: 0.75
+    note: advancing scaly edge with central clearing is near-unique
+  scaly_patches:
+    p: 0.9
+  itchy:
+    p: 0.8
+  blisters:
+    p: 0.1
+  oozing_crusting:
+    p: 0.05
+  wheals_come_and_go:
+    p: 0.02
+  hot_tender_area:
+    p: 0.05
+  fever:
+    p: 0.02
+  mouth_or_eye_sores:
+    p: 0.02
+  skin_peeling_sheets:
+    p: 0.1
+  new_medication:
+    p: 0.04
+  new_contact_product:
+    p: 0.07
+  itch_worse_at_night:
+    p: 0.25
+  household_itchy:
+    p: 0.12
+  herald_patch:
+    p: 0.05

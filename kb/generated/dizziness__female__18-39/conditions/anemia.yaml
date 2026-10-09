@@ -1,0 +1,27 @@
+id: anemia
+name: Anaemia
+prior: 0.08
+must_not_miss: false
+choices:
+  episode_duration:
+  - 0.05
+  - 0.1
+  - 0.25
+  - 0.6
+findings:
+  lightheaded:
+    p: 0.75
+  worse_exertion:
+    p: 0.8
+    note: discriminator - exertional
+  spinning:
+    p: 0.05
+    note: RULE-OUT
+  palpitations:
+    p: 0.35
+  trig_standing:
+    p: 0.4
+  hearing_change:
+    p: 0.01
+  neuro_speech_vision:
+    p: 0.01

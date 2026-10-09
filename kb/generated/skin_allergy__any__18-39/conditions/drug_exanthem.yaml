@@ -1,0 +1,57 @@
+id: drug_exanthem
+name: Drug rash (reaction to a medicine)
+prior: 0.09
+must_not_miss: false
+choices:
+  rash_location:
+  - 0.03
+  - 0.35
+  - 0.1
+  - 0.01
+  - 0.01
+  - 0.5
+  rash_duration:
+  - 0.2
+  - 0.4
+  - 0.3
+  - 0.08
+  - 0.02
+  spot_lifespan:
+  - 0.1
+  - 0.8
+  - 0.1
+findings:
+  new_medication:
+    p: 0.92
+    note: recent new drug is the discriminator
+  itchy:
+    p: 0.7
+  fever:
+    p: 0.25
+  wheals_come_and_go:
+    p: 0.1
+  scaly_patches:
+    p: 0.15
+  blisters:
+    p: 0.05
+  oozing_crusting:
+    p: 0.03
+  hot_tender_area:
+    p: 0.03
+  mouth_or_eye_sores:
+    p: 0.07
+    note: if present, worry about SJS instead
+  skin_peeling_sheets:
+    p: 0.05
+  ring_shaped_clear_centre:
+    p: 0.05
+  new_contact_product:
+    p: 0.05
+  itch_worse_at_night:
+    p: 0.3
+  household_itchy:
+    p: 0.02
+  herald_patch:
+    p: 0.02
+  swollen_lips_or_eyelids:
+    p: 0.1

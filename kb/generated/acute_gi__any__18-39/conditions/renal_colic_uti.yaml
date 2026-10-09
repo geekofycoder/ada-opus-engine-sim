@@ -1,0 +1,48 @@
+id: renal_colic_uti
+name: Kidney stone or urine infection
+prior: 0.08
+must_not_miss: true
+choices:
+  pain_location:
+  - 0.03
+  - 0.2
+  - 0.1
+  - 0.05
+  - 0.57
+  - 0.05
+  illness_duration:
+  - 0.3
+  - 0.3
+  - 0.25
+  - 0.12
+  - 0.03
+  stool_pattern:
+  - 0.75
+  - 0.12
+  - 0.03
+  - 0.02
+  - 0.08
+findings:
+  urinary_symptoms_or_flank_pain:
+    p: 0.9
+    note: loin-to-groin pain or dysuria is the discriminator
+  vomiting:
+    p: 0.55
+  severe_constant_pain:
+    p: 0.4
+  fever:
+    p: 0.3
+  others_ill:
+    p: 0.02
+  testicle_or_groin_pain:
+    p: 0.4
+    note: stone pain radiates to testicle
+  pain_worse_on_movement:
+    p: 0.15
+    note: classically writhing rather than still
+  black_tarry_or_vomited_blood:
+    p: 0.01
+  sudden_onset_hours_after_food:
+    p: 0.05
+  recent_travel:
+    p: 0.04

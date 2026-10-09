@@ -1,0 +1,48 @@
+id: pneumonia
+name: Pneumonia (chest infection)
+prior: 0.05
+must_not_miss: true
+choices:
+  duration:
+  - 0.2
+  - 0.5
+  - 0.27
+  - 0.03
+  main_symptom:
+  - 0.02
+  - 0.03
+  - 0.4
+  - 0.3
+  - 0.25
+  fever_level:
+  - 0.07
+  - 0.2
+  - 0.63
+  - 0.1
+findings:
+  productive_cough:
+    p: 0.8
+  breathless:
+    p: 0.7
+    note: far higher than bronchitis
+  chest_pain_on_breathing:
+    p: 0.6
+    note: one-sided pleuritic pain discriminator
+  severe_body_aches:
+    p: 0.4
+  confused_or_very_unwell:
+    p: 0.3
+  coughing_blood:
+    p: 0.15
+  runny_or_blocked_nose:
+    p: 0.25
+  wheeze:
+    p: 0.15
+  white_spots_tonsils:
+    p: 0.01
+  sore_throat:
+    p: 0.2
+  leg_swelling_or_recent_travel:
+    p: 0.05
+  night_or_exercise_cough:
+    p: 0.1

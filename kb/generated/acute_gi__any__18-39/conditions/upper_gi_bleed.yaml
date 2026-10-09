@@ -1,0 +1,47 @@
+id: upper_gi_bleed
+name: Bleeding in the stomach or gullet
+prior: 0.02
+must_not_miss: true
+choices:
+  pain_location:
+  - 0.01
+  - 0.01
+  - 0.03
+  - 0.6
+  - 0.1
+  - 0.25
+  illness_duration:
+  - 0.2
+  - 0.35
+  - 0.3
+  - 0.12
+  - 0.03
+  stool_pattern:
+  - 0.25
+  - 0.1
+  - 0.05
+  - 0.55
+  - 0.05
+findings:
+  black_tarry_or_vomited_blood:
+    p: 0.95
+    note: defining feature
+  dizzy_on_standing:
+    p: 0.65
+    note: blood loss
+  vomiting:
+    p: 0.6
+  nsaid_or_alcohol_binge:
+    p: 0.6
+  heartburn_or_gnawing_hunger_pain:
+    p: 0.45
+  fever:
+    p: 0.05
+  others_ill:
+    p: 0.02
+  pain_worse_on_movement:
+    p: 0.05
+  symptoms_improving:
+    p: 0.1
+  recent_travel:
+    p: 0.03

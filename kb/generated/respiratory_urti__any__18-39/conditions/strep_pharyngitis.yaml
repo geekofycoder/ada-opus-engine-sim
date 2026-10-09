@@ -1,0 +1,49 @@
+id: strep_pharyngitis
+name: Strep throat (bacterial tonsillitis)
+prior: 0.09
+must_not_miss: false
+choices:
+  duration:
+  - 0.3
+  - 0.55
+  - 0.13
+  - 0.02
+  main_symptom:
+  - 0.82
+  - 0.03
+  - 0.02
+  - 0.01
+  - 0.12
+  fever_level:
+  - 0.12
+  - 0.35
+  - 0.35
+  - 0.18
+findings:
+  sore_throat:
+    p: 0.99
+  white_spots_tonsils:
+    p: 0.65
+    note: key discriminator vs viral cold
+  swollen_neck_glands:
+    p: 0.8
+  no_cough_at_all:
+    p: 0.65
+    note: absence of cough favours strep
+  runny_or_blocked_nose:
+    p: 0.2
+    note: low compared with cold
+  productive_cough:
+    p: 0.05
+  breathless:
+    p: 0.02
+  wheeze:
+    p: 0.02
+  severe_body_aches:
+    p: 0.25
+  chest_pain_on_breathing:
+    p: 0.02
+  very_tired_weeks:
+    p: 0.05
+  face_pain_bending:
+    p: 0.05

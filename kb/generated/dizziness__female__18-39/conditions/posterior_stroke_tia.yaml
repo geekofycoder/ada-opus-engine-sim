@@ -1,0 +1,29 @@
+id: posterior_stroke_tia
+name: Posterior circulation stroke or TIA
+prior: 0.04
+must_not_miss: true
+choices:
+  episode_duration:
+  - 0.1
+  - 0.25
+  - 0.25
+  - 0.4
+findings:
+  neuro_speech_vision:
+    p: 0.55
+    note: THE discriminator - near-unique
+  limb_weakness:
+    p: 0.5
+    note: second discriminator
+  unsteady_walk:
+    p: 0.75
+  spinning:
+    p: 0.6
+  nausea:
+    p: 0.45
+  hearing_change:
+    p: 0.08
+  trig_head_move:
+    p: 0.1
+  lightheaded:
+    p: 0.25

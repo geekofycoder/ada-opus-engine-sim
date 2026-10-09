@@ -1,0 +1,25 @@
+id: anxiety_hyperventilation
+name: Anxiety or hyperventilation
+prior: 0.1
+must_not_miss: false
+choices:
+  episode_duration:
+  - 0.1
+  - 0.6
+  - 0.25
+  - 0.05
+findings:
+  lightheaded:
+    p: 0.8
+  palpitations:
+    p: 0.55
+  spinning:
+    p: 0.15
+  nausea:
+    p: 0.35
+  trig_standing:
+    p: 0.2
+  hearing_change:
+    p: 0.02
+  neuro_speech_vision:
+    p: 0.03

@@ -1,0 +1,53 @@
+id: seborrhoeic_dermatitis
+name: Seborrhoeic dermatitis (dandruff-type rash)
+prior: 0.1
+must_not_miss: false
+choices:
+  rash_location:
+  - 0.75
+  - 0.12
+  - 0.03
+  - 0.02
+  - 0.05
+  - 0.03
+  rash_duration:
+  - 0.02
+  - 0.05
+  - 0.13
+  - 0.25
+  - 0.55
+  spot_lifespan:
+  - 0.03
+  - 0.32
+  - 0.65
+findings:
+  scaly_patches:
+    p: 0.9
+  itchy:
+    p: 0.6
+  oozing_crusting:
+    p: 0.05
+  blisters:
+    p: 0.02
+  ring_shaped_clear_centre:
+    p: 0.05
+  wheals_come_and_go:
+    p: 0.02
+  hot_tender_area:
+    p: 0.02
+  fever:
+    p: 0.02
+  mouth_or_eye_sores:
+    p: 0.02
+  skin_peeling_sheets:
+    p: 0.1
+  new_medication:
+    p: 0.03
+  new_contact_product:
+    p: 0.05
+  itch_worse_at_night:
+    p: 0.2
+  household_itchy:
+    p: 0.03
+  herald_patch:
+    p: 0.02

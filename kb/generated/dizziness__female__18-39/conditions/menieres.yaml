@@ -1,0 +1,29 @@
+id: menieres
+name: Meniere's disease
+prior: 0.05
+must_not_miss: false
+choices:
+  episode_duration:
+  - 0.02
+  - 0.15
+  - 0.78
+  - 0.05
+findings:
+  hearing_change:
+    p: 0.85
+    note: THE discriminator
+  tinnitus:
+    p: 0.8
+    note: second discriminator
+  spinning:
+    p: 0.9
+  nausea:
+    p: 0.7
+  trig_head_move:
+    p: 0.15
+  unsteady_walk:
+    p: 0.35
+  lightheaded:
+    p: 0.1
+  neuro_speech_vision:
+    p: 0.01

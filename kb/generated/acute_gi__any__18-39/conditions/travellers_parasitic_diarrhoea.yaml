@@ -1,0 +1,46 @@
+id: travellers_parasitic_diarrhoea
+name: Travellers' or parasitic diarrhoea (e.g. giardia)
+prior: 0.05
+must_not_miss: false
+choices:
+  pain_location:
+  - 0.01
+  - 0.02
+  - 0.02
+  - 0.1
+  - 0.7
+  - 0.15
+  illness_duration:
+  - 0.0
+  - 0.02
+  - 0.13
+  - 0.45
+  - 0.4
+  stool_pattern:
+  - 0.05
+  - 0.45
+  - 0.42
+  - 0.06
+  - 0.02
+findings:
+  recent_travel:
+    p: 0.85
+    note: key discriminator
+  fever:
+    p: 0.15
+  vomiting:
+    p: 0.2
+  others_ill:
+    p: 0.25
+  sudden_onset_hours_after_food:
+    p: 0.05
+  severe_constant_pain:
+    p: 0.05
+  pain_worse_on_movement:
+    p: 0.03
+  symptoms_improving:
+    p: 0.15
+  black_tarry_or_vomited_blood:
+    p: 0.01
+  dizzy_on_standing:
+    p: 0.1

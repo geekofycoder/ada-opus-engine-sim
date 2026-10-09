@@ -1,0 +1,45 @@
+id: viral_pharyngitis
+name: Viral sore throat
+prior: 0.08
+must_not_miss: false
+choices:
+  duration:
+  - 0.35
+  - 0.5
+  - 0.13
+  - 0.02
+  main_symptom:
+  - 0.8
+  - 0.1
+  - 0.05
+  - 0.01
+  - 0.04
+  fever_level:
+  - 0.45
+  - 0.3
+  - 0.05
+  - 0.2
+findings:
+  sore_throat:
+    p: 0.98
+  runny_or_blocked_nose:
+    p: 0.7
+    note: nasal symptoms argue against strep
+  white_spots_tonsils:
+    p: 0.12
+  swollen_neck_glands:
+    p: 0.4
+  no_cough_at_all:
+    p: 0.3
+  breathless:
+    p: 0.02
+  severe_body_aches:
+    p: 0.15
+  productive_cough:
+    p: 0.15
+  chest_pain_on_breathing:
+    p: 0.02
+  very_tired_weeks:
+    p: 0.05
+  confused_or_very_unwell:
+    p: 0.01

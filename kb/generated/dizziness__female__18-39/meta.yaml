@@ -1,0 +1,8 @@
+category: dizziness
+sex: female
+age_band: 18-39
+status: generated
+generated_by: hand-written example (not model-generated)
+generated_at: '2026-10-03'
+warning: EXAMPLE rulebook shipped with the repo so the engine can be run without an
+  API key. Hand-written, NOT clinically reviewed.

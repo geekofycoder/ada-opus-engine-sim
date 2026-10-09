@@ -1,0 +1,23 @@
+id: medication_side_effect
+name: Medication side effect
+prior: 0.03
+must_not_miss: false
+choices:
+  episode_duration:
+  - 0.05
+  - 0.15
+  - 0.25
+  - 0.55
+findings:
+  lightheaded:
+    p: 0.6
+  spinning:
+    p: 0.25
+  trig_standing:
+    p: 0.45
+  nausea:
+    p: 0.3
+  hearing_change:
+    p: 0.05
+  neuro_speech_vision:
+    p: 0.02

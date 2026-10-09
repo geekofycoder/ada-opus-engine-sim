@@ -1,0 +1,52 @@
+id: bacterial_food_poisoning
+name: Food poisoning (toxin from a bad meal)
+prior: 0.17
+must_not_miss: false
+choices:
+  pain_location:
+  - 0.02
+  - 0.02
+  - 0.01
+  - 0.25
+  - 0.6
+  - 0.1
+  illness_duration:
+  - 0.3
+  - 0.45
+  - 0.2
+  - 0.04
+  - 0.01
+  stool_pattern:
+  - 0.1
+  - 0.3
+  - 0.55
+  - 0.03
+  - 0.02
+findings:
+  sudden_onset_hours_after_food:
+    p: 0.85
+    note: defining feature
+  vomiting:
+    p: 0.85
+  fever:
+    p: 0.25
+  others_ill:
+    p: 0.6
+  recent_travel:
+    p: 0.1
+  pain_worse_on_movement:
+    p: 0.05
+  severe_constant_pain:
+    p: 0.08
+  black_tarry_or_vomited_blood:
+    p: 0.01
+  symptoms_improving:
+    p: 0.55
+  unable_to_keep_fluids_down:
+    p: 0.2
+  dizzy_on_standing:
+    p: 0.25
+  testicle_or_groin_pain:
+    p: 0.01
+  urinary_symptoms_or_flank_pain:
+    p: 0.02

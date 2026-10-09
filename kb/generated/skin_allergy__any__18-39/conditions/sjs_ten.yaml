@@ -1,0 +1,57 @@
+id: sjs_ten
+name: Severe drug reaction with skin peeling (Stevens-Johnson syndrome)
+prior: 0.02
+must_not_miss: true
+choices:
+  rash_location:
+  - 0.15
+  - 0.15
+  - 0.05
+  - 0.03
+  - 0.02
+  - 0.6
+  rash_duration:
+  - 0.2
+  - 0.5
+  - 0.27
+  - 0.02
+  - 0.01
+  spot_lifespan:
+  - 0.05
+  - 0.9
+  - 0.05
+findings:
+  mouth_or_eye_sores:
+    p: 0.92
+    note: mucosal ulceration is the key alarm sign
+  skin_peeling_sheets:
+    p: 0.8
+    note: skin sloughing separates it from ordinary drug rash
+  fever:
+    p: 0.85
+  new_medication:
+    p: 0.85
+  blisters:
+    p: 0.85
+  hot_tender_area:
+    p: 0.4
+    note: skin is painful rather than itchy
+  itchy:
+    p: 0.3
+  wheals_come_and_go:
+    p: 0.15
+  scaly_patches:
+    p: 0.1
+  oozing_crusting:
+    p: 0.3
+  ring_shaped_clear_centre:
+    p: 0.2
+    note: target-like lesions can look annular
+  new_contact_product:
+    p: 0.03
+  household_itchy:
+    p: 0.01
+  herald_patch:
+    p: 0.01
+  itch_worse_at_night:
+    p: 0.1

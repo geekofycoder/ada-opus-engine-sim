@@ -1,0 +1,53 @@
+id: urethritis_sti
+name: Urethritis from a sexually transmitted infection
+prior: 0.11
+must_not_miss: true
+choices:
+  pain_location:
+  - 0.3
+  - 0.05
+  - 0.5
+  - 0.15
+  symptom_duration:
+  - 0.08
+  - 0.25
+  - 0.45
+  - 0.18
+  - 0.04
+  fever_level:
+  - 0.88
+  - 0.1
+  - 0.02
+findings:
+  burning_urination:
+    p: 0.7
+  frequency_small_amounts:
+    p: 0.45
+  urgency:
+    p: 0.4
+  visible_blood:
+    p: 0.05
+    note: visible blood points away from urethritis toward cystitis or stone
+  cloudy_foul_urine:
+    p: 0.25
+  nausea_vomiting:
+    p: 0.05
+  pain_in_waves:
+    p: 0.03
+  vaginal_discharge:
+    p: 0.6
+  vulval_itch_soreness:
+    p: 0.25
+  new_partner_unprotected:
+    p: 0.7
+    note: strongest single pointer to a sexually transmitted cause
+  deep_pain_during_sex:
+    p: 0.25
+  pain_relieved_by_emptying:
+    p: 0.1
+  nocturia:
+    p: 0.15
+  leaking_urine:
+    p: 0.05
+  flank_tender_to_touch:
+    p: 0.03

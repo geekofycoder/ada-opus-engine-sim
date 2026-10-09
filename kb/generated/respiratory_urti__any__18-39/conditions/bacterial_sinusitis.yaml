@@ -1,0 +1,45 @@
+id: bacterial_sinusitis
+name: Sinus infection (sinusitis)
+prior: 0.09
+must_not_miss: false
+choices:
+  duration:
+  - 0.03
+  - 0.17
+  - 0.55
+  - 0.25
+  main_symptom:
+  - 0.05
+  - 0.75
+  - 0.12
+  - 0.01
+  - 0.07
+  fever_level:
+  - 0.5
+  - 0.32
+  - 0.06
+  - 0.12
+findings:
+  face_pain_bending:
+    p: 0.85
+    note: discriminator vs cold
+  runny_or_blocked_nose:
+    p: 0.95
+  productive_cough:
+    p: 0.3
+  sore_throat:
+    p: 0.25
+  breathless:
+    p: 0.02
+  wheeze:
+    p: 0.03
+  severe_body_aches:
+    p: 0.1
+  white_spots_tonsils:
+    p: 0.02
+  chest_pain_on_breathing:
+    p: 0.02
+  swollen_neck_glands:
+    p: 0.15
+  confused_or_very_unwell:
+    p: 0.01

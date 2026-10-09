@@ -1,0 +1,57 @@
+id: acute_urticaria
+name: Hives (urticaria)
+prior: 0.15
+must_not_miss: false
+choices:
+  rash_location:
+  - 0.05
+  - 0.2
+  - 0.2
+  - 0.03
+  - 0.02
+  - 0.5
+  rash_duration:
+  - 0.35
+  - 0.3
+  - 0.2
+  - 0.1
+  - 0.05
+  spot_lifespan:
+  - 0.85
+  - 0.13
+  - 0.02
+findings:
+  itchy:
+    p: 0.95
+  wheals_come_and_go:
+    p: 0.92
+    note: defining feature
+  swollen_lips_or_eyelids:
+    p: 0.35
+  scaly_patches:
+    p: 0.03
+    note: hives are never scaly - separates from eczema and fungal
+  blisters:
+    p: 0.03
+  oozing_crusting:
+    p: 0.02
+  ring_shaped_clear_centre:
+    p: 0.1
+  hot_tender_area:
+    p: 0.05
+  fever:
+    p: 0.05
+  mouth_or_eye_sores:
+    p: 0.02
+  skin_peeling_sheets:
+    p: 0.01
+  new_medication:
+    p: 0.25
+  new_contact_product:
+    p: 0.15
+  itch_worse_at_night:
+    p: 0.3
+  household_itchy:
+    p: 0.05
+  herald_patch:
+    p: 0.02

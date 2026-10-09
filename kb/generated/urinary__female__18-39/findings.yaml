@@ -1,0 +1,102 @@
+pain_location:
+  type: choice
+  question: Where is your pain or discomfort worst?
+  definition: Pick the single area where the discomfort is strongest right now.
+  options:
+    lower_abdomen: Low down in the front of my belly, above the pubic bone
+    flank_back: In my back or side, just under the ribs on one side
+    genital_external: At the opening where urine comes out, or on the outer genital
+      skin
+    no_pain: I have no real pain, just needing to pass urine
+symptom_duration:
+  type: choice
+  question: How long have these urinary symptoms been going on?
+  definition: Time since this current episode of symptoms first began.
+  options:
+    under_1_day: Less than one day
+    one_to_three_days: 1 to 3 days
+    four_to_fourteen_days: 4 days to 2 weeks
+    two_weeks_to_three_months: 2 weeks to 3 months
+    over_three_months: More than 3 months
+fever_level:
+  type: choice
+  question: Have you had a fever with this?
+  definition: Based on a thermometer reading if you have one, or on feeling hot and
+    shivery if you do not.
+  options:
+    no_fever: No fever (under 37.5C / 99.5F)
+    mild_fever: Mild fever 37.5-38C (99.5-100.4F)
+    high_fever: 38C (100.4F) or higher, or shaking chills
+burning_urination:
+  type: noul
+  question: Does it burn or sting when you pass urine?
+  definition: A stinging, burning or sharp pain during or just after passing urine.
+frequency_small_amounts:
+  type: noul
+  question: Are you passing urine much more often than usual, only a small amount
+    each time?
+  definition: Going to the toilet far more often than normal but producing only a
+    little urine.
+urgency:
+  type: noul
+  question: Do you get a sudden desperate need to pass urine that is hard to put off?
+  definition: An urge so strong you must rush to the toilet immediately.
+visible_blood:
+  type: noul
+  question: Have you seen blood in your urine?
+  definition: Urine that looks pink, red or tea-coloured, not period blood.
+cloudy_foul_urine:
+  type: noul
+  question: Is your urine cloudy or does it smell strongly unpleasant?
+  definition: Urine that is murky rather than clear, or smells much worse than usual.
+nausea_vomiting:
+  type: noul
+  question: Have you felt sick to your stomach or vomited?
+  definition: Nausea or actual vomiting since the symptoms started.
+pain_in_waves:
+  type: noul
+  question: Does the pain come in severe waves that build up and then ease off?
+  definition: Pain that grips in spasms so bad you cannot sit still, rather than staying
+    steady.
+vaginal_discharge:
+  type: noul
+  question: Have you noticed new or changed vaginal discharge?
+  definition: Discharge that is new, heavier, or a different colour or smell than
+    normal for you.
+vulval_itch_soreness:
+  type: noul
+  question: Is the skin around your vagina itchy or sore?
+  definition: Itching, burning or rawness of the outer genital skin itself.
+new_partner_unprotected:
+  type: noul
+  question: Have you had a new sexual partner or unprotected sex in the last 3 months?
+  definition: Any new partner, or sex without a condom with someone whose status you
+    do not know.
+deep_pain_during_sex:
+  type: noul
+  question: Do you get deep pain inside during sex?
+  definition: Pain felt deep in the pelvis on penetration, not just at the entrance.
+pain_relieved_by_emptying:
+  type: noul
+  question: Does your bladder pain build up as it fills and ease right after you empty
+    it?
+  definition: Pressure or pain that gets worse the longer you hold on and is relieved
+    by passing urine.
+nocturia:
+  type: noul
+  question: Are you waking at night two or more times to pass urine?
+  definition: Being woken from sleep by the need to urinate, twice or more a night.
+leaking_urine:
+  type: noul
+  question: Do you leak urine before you reach the toilet?
+  definition: Urine escaping involuntarily when the urge hits.
+very_thirsty_large_volumes:
+  type: noul
+  question: Are you unusually thirsty and passing large volumes of urine?
+  definition: Drinking far more than usual and producing big amounts of urine each
+    time, not small amounts.
+flank_tender_to_touch:
+  type: noul
+  question: Is your back, just under the ribs on one side, sore when pressed or tapped?
+  definition: Tenderness over the kidney area at the back when you press or thump
+    it gently.

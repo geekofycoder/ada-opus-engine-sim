@@ -1,0 +1,57 @@
+id: cystitis
+name: Bladder infection (cystitis)
+prior: 0.41
+must_not_miss: false
+choices:
+  pain_location:
+  - 0.7
+  - 0.05
+  - 0.15
+  - 0.1
+  symptom_duration:
+  - 0.25
+  - 0.55
+  - 0.15
+  - 0.04
+  - 0.01
+  fever_level:
+  - 0.85
+  - 0.13
+  - 0.02
+findings:
+  burning_urination:
+    p: 0.92
+  frequency_small_amounts:
+    p: 0.85
+  urgency:
+    p: 0.8
+  visible_blood:
+    p: 0.25
+  cloudy_foul_urine:
+    p: 0.6
+  nausea_vomiting:
+    p: 0.1
+    note: vomiting suggests the infection has reached the kidney instead
+  pain_in_waves:
+    p: 0.05
+    note: bladder pain is steady, not colicky like a stone
+  vaginal_discharge:
+    p: 0.1
+    note: rule-out against vaginitis and PID
+  vulval_itch_soreness:
+    p: 0.08
+  new_partner_unprotected:
+    p: 0.2
+  deep_pain_during_sex:
+    p: 0.1
+  pain_relieved_by_emptying:
+    p: 0.4
+  nocturia:
+    p: 0.4
+  leaking_urine:
+    p: 0.15
+  very_thirsty_large_volumes:
+    p: 0.03
+  flank_tender_to_touch:
+    p: 0.08
+    note: rule-out against pyelonephritis

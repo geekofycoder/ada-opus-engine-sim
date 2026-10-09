@@ -1,0 +1,46 @@
+id: testicular_torsion_hernia
+name: Twisted testicle or trapped hernia
+prior: 0.03
+must_not_miss: true
+choices:
+  pain_location:
+  - 0.02
+  - 0.2
+  - 0.01
+  - 0.02
+  - 0.6
+  - 0.15
+  illness_duration:
+  - 0.5
+  - 0.3
+  - 0.15
+  - 0.04
+  - 0.01
+  stool_pattern:
+  - 0.5
+  - 0.08
+  - 0.02
+  - 0.0
+  - 0.4
+findings:
+  testicle_or_groin_pain:
+    p: 0.95
+    note: defining feature
+  severe_constant_pain:
+    p: 0.8
+  vomiting:
+    p: 0.6
+  fever:
+    p: 0.1
+  others_ill:
+    p: 0.02
+  pain_worse_on_movement:
+    p: 0.5
+  black_tarry_or_vomited_blood:
+    p: 0.01
+  symptoms_improving:
+    p: 0.05
+  recent_travel:
+    p: 0.03
+  urinary_symptoms_or_flank_pain:
+    p: 0.15

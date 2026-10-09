@@ -1,0 +1,54 @@
+id: vaginitis
+name: Thrush or other vaginal infection
+prior: 0.1
+must_not_miss: false
+choices:
+  pain_location:
+  - 0.12
+  - 0.01
+  - 0.75
+  - 0.12
+  symptom_duration:
+  - 0.05
+  - 0.3
+  - 0.45
+  - 0.15
+  - 0.05
+  fever_level:
+  - 0.95
+  - 0.04
+  - 0.01
+findings:
+  burning_urination:
+    p: 0.55
+    note: burning is external as urine touches sore skin
+  frequency_small_amounts:
+    p: 0.2
+    note: rule-out against cystitis
+  urgency:
+    p: 0.15
+  visible_blood:
+    p: 0.03
+  cloudy_foul_urine:
+    p: 0.1
+  nausea_vomiting:
+    p: 0.02
+  pain_in_waves:
+    p: 0.02
+  vaginal_discharge:
+    p: 0.85
+  vulval_itch_soreness:
+    p: 0.85
+    note: external itch is the discriminator
+  new_partner_unprotected:
+    p: 0.2
+  deep_pain_during_sex:
+    p: 0.1
+  pain_relieved_by_emptying:
+    p: 0.05
+  nocturia:
+    p: 0.08
+  leaking_urine:
+    p: 0.03
+  flank_tender_to_touch:
+    p: 0.02

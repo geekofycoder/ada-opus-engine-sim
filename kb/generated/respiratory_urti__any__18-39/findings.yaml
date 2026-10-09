@@ -1,0 +1,103 @@
+duration:
+  type: choice
+  question: How long have you been ill?
+  definition: Time since the very first symptom of this illness started.
+  options:
+    under_2_days: Less than 2 days
+    two_to_6_days: 2 to 6 days
+    one_to_3_weeks: 1 to 3 weeks
+    over_3_weeks: More than 3 weeks
+main_symptom:
+  type: choice
+  question: Which single symptom bothers you most?
+  definition: Pick the one symptom you would most want treated today.
+  options:
+    sore_throat: Sore throat
+    blocked_runny_nose: Blocked or runny nose / face pain
+    cough: Cough
+    breathlessness: Trouble breathing
+    whole_body_aches: Fever, aches, feeling wiped out
+fever_level:
+  type: choice
+  question: What is the highest temperature you have measured?
+  definition: Measured with a thermometer; choose 'not measured' if you only feel
+    hot.
+  options:
+    none: No fever (under 37.5C / 99.5F)
+    mild: 37.5-38.4C (99.5-101F)
+    high: 38.5C (101F) or above
+    not_measured: I have not measured it
+sore_throat:
+  type: noul
+  question: Does your throat hurt?
+  definition: Pain or rawness in the throat, especially when swallowing.
+runny_or_blocked_nose:
+  type: noul
+  question: Is your nose runny or blocked?
+  definition: Nasal discharge or congestion for most of the day.
+productive_cough:
+  type: noul
+  question: Are you coughing up phlegm?
+  definition: Cough brings up mucus or sputum rather than being dry.
+breathless:
+  type: noul
+  question: Are you short of breath doing things you normally manage easily?
+  definition: Breathlessness walking on the flat, talking, or at rest.
+wheeze:
+  type: noul
+  question: Do you hear a whistling sound when you breathe out?
+  definition: A high-pitched whistle from the chest, not noise from the nose or throat.
+chest_pain_on_breathing:
+  type: noul
+  question: Does it hurt in one spot in your chest when you breathe in deeply?
+  definition: Sharp pain on one side of the chest worsened by a deep breath or cough.
+sudden_onset_hours:
+  type: noul
+  question: Did you go from well to clearly unwell within a few hours?
+  definition: Symptoms hit abruptly rather than building up over days.
+severe_body_aches:
+  type: noul
+  question: Do your muscles and body ache all over?
+  definition: Widespread muscle aching, not just a stiff neck or one sore area.
+face_pain_bending:
+  type: noul
+  question: Do your cheeks, teeth or forehead hurt, especially bending forward?
+  definition: Pressure or pain over the sinuses that worsens when you lean down.
+no_cough_at_all:
+  type: noul
+  question: Are you completely free of cough?
+  definition: You have not coughed at all during this illness.
+swollen_neck_glands:
+  type: noul
+  question: Are the glands in your neck swollen or tender?
+  definition: Tender lumps under the jaw or along the sides of the neck.
+white_spots_tonsils:
+  type: noul
+  question: Can you see white patches or pus on your tonsils?
+  definition: White or yellow spots at the back of the throat seen in a mirror.
+very_tired_weeks:
+  type: noul
+  question: Have you been unusually exhausted for more than a week?
+  definition: Fatigue bad enough to interfere with work or study, lasting over a week.
+night_or_exercise_cough:
+  type: noul
+  question: Does your cough or chest tightness come on at night or with exercise?
+  definition: Symptoms triggered by exertion, cold air, or waking you at night.
+coughing_blood:
+  type: noul
+  question: Have you coughed up blood?
+  definition: Blood or rust-coloured streaks in the phlegm.
+leg_swelling_or_recent_travel:
+  type: noul
+  question: Have you had a swollen painful calf, or long travel/surgery/immobility
+    recently?
+  definition: One-sided calf swelling or pain, or over 4 hours immobile in the last
+    month.
+confused_or_very_unwell:
+  type: noul
+  question: Are you feeling faint, confused, or too unwell to stand?
+  definition: New confusion, near-collapse, or inability to get out of bed.
+previous_asthma:
+  type: noul
+  question: Have you ever been told you have asthma or been given an inhaler?
+  definition: A prior diagnosis of asthma or use of a reliever inhaler.

@@ -1,0 +1,48 @@
+id: influenza
+name: Flu (influenza)
+prior: 0.1
+must_not_miss: false
+choices:
+  duration:
+  - 0.4
+  - 0.45
+  - 0.13
+  - 0.02
+  main_symptom:
+  - 0.1
+  - 0.08
+  - 0.17
+  - 0.03
+  - 0.62
+  fever_level:
+  - 0.03
+  - 0.2
+  - 0.62
+  - 0.15
+findings:
+  severe_body_aches:
+    p: 0.9
+    note: hallmark of flu
+  sudden_onset_hours:
+    p: 0.8
+    note: abrupt onset distinguishes from cold
+  runny_or_blocked_nose:
+    p: 0.6
+  sore_throat:
+    p: 0.55
+  productive_cough:
+    p: 0.3
+  breathless:
+    p: 0.08
+  chest_pain_on_breathing:
+    p: 0.05
+  white_spots_tonsils:
+    p: 0.03
+  face_pain_bending:
+    p: 0.1
+  confused_or_very_unwell:
+    p: 0.08
+  very_tired_weeks:
+    p: 0.2
+  coughing_blood:
+    p: 0.02

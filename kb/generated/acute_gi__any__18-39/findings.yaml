@@ -1,0 +1,95 @@
+pain_location:
+  type: choice
+  question: Where is your tummy pain worst right now?
+  definition: Pick the single spot that hurts most; if there is no pain at all choose
+    the last option.
+  options:
+    around_navel_then_right_lower: Started around my belly button, now low on the
+      right
+    right_lower: Low down on the right side
+    right_upper: Upper right, under the ribs
+    upper_middle: Upper middle, below the breastbone
+    lower_middle_or_all_over: Lower middle or spread all over
+    no_pain: I have no tummy pain
+illness_duration:
+  type: choice
+  question: How long have you been ill with this?
+  definition: Count from the first symptom of this episode, not from when it got worst.
+  options:
+    under_6h: Less than 6 hours
+    6_24h: 6 to 24 hours
+    1_3d: 1 to 3 days
+    4_14d: 4 to 14 days
+    over_14d: More than 2 weeks
+stool_pattern:
+  type: choice
+  question: What are your bowel movements like?
+  definition: Describe the last 24 hours.
+  options:
+    none_or_normal: Normal, or no change
+    loose_few: Loose, fewer than 4 times a day
+    watery_many: Watery, 4 or more times a day
+    blood_or_mucus: Containing blood or slime
+    constipated: Not passing stool at all
+vomiting:
+  type: noul
+  question: Have you vomited?
+  definition: Actually bringing up stomach contents, not just feeling sick.
+fever:
+  type: noul
+  question: "Have you had a fever of 38\xB0C (100.4\xB0F) or higher?"
+  definition: Measured, or clear shivering and sweating episodes.
+sudden_onset_hours_after_food:
+  type: noul
+  question: Did it start suddenly within about 6 hours of a particular meal?
+  definition: Symptoms began abruptly soon after eating a specific suspect food.
+others_ill:
+  type: noul
+  question: Is anyone who ate with you or lives with you also ill?
+  definition: Another person with similar tummy symptoms in the last few days.
+recent_travel:
+  type: noul
+  question: Have you travelled abroad in the last month?
+  definition: Especially to a country with poorer food or water hygiene.
+pain_worse_on_movement:
+  type: noul
+  question: Does coughing, walking or going over bumps make the pain much worse?
+  definition: Jolting movements sharply increase the tummy pain.
+severe_constant_pain:
+  type: noul
+  question: Is the pain severe and constant rather than coming in waves?
+  definition: Pain that does not ease off at all between episodes.
+black_tarry_or_vomited_blood:
+  type: noul
+  question: Have you passed black tarry stools or vomited blood?
+  definition: Stool like black tar, or vomit with red blood or coffee-grounds material.
+heartburn_or_gnawing_hunger_pain:
+  type: noul
+  question: Do you get a burning or gnawing pain that changes with eating?
+  definition: Upper tummy pain relieved or triggered by food or antacids.
+nsaid_or_alcohol_binge:
+  type: noul
+  question: Have you recently taken a lot of painkillers like ibuprofen, or had a
+    heavy drinking session?
+  definition: Regular NSAIDs or a binge of alcohol in the last week.
+unable_to_keep_fluids_down:
+  type: noul
+  question: Have you been unable to keep any fluids down for more than 8 hours?
+  definition: Everything you drink comes straight back up.
+dizzy_on_standing:
+  type: noul
+  question: Do you feel faint or very dizzy when you stand up?
+  definition: Lightheaded as if about to black out on standing, a sign of dehydration
+    or blood loss.
+testicle_or_groin_pain:
+  type: noul
+  question: Do you have pain or a lump in your groin or testicle?
+  definition: Pain, swelling or a new bulge in the scrotum or groin crease.
+urinary_symptoms_or_flank_pain:
+  type: noul
+  question: Do you have back/side pain or pain when passing urine?
+  definition: Pain in the loin radiating to the groin, or burning when you urinate.
+symptoms_improving:
+  type: noul
+  question: Are your symptoms already getting better?
+  definition: Clearly less severe now than at their worst.

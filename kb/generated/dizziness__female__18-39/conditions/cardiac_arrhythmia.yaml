@@ -1,0 +1,27 @@
+id: cardiac_arrhythmia
+name: Cardiac arrhythmia
+prior: 0.05
+must_not_miss: true
+choices:
+  episode_duration:
+  - 0.55
+  - 0.35
+  - 0.07
+  - 0.03
+findings:
+  palpitations:
+    p: 0.75
+    note: THE discriminator
+  lightheaded:
+    p: 0.8
+  worse_exertion:
+    p: 0.4
+  spinning:
+    p: 0.08
+    note: RULE-OUT
+  trig_standing:
+    p: 0.25
+  hearing_change:
+    p: 0.01
+  neuro_speech_vision:
+    p: 0.02

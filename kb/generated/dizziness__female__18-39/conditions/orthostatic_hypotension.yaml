@@ -1,0 +1,31 @@
+id: orthostatic_hypotension
+name: Orthostatic hypotension
+prior: 0.18
+must_not_miss: false
+choices:
+  episode_duration:
+  - 0.8
+  - 0.15
+  - 0.03
+  - 0.02
+findings:
+  lightheaded:
+    p: 0.9
+  trig_standing:
+    p: 0.95
+    note: THE discriminator
+  spinning:
+    p: 0.1
+    note: 'RULE-OUT: BPPV is 0.95'
+  palpitations:
+    p: 0.15
+  trig_head_move:
+    p: 0.1
+  nausea:
+    p: 0.25
+  worse_exertion:
+    p: 0.3
+  hearing_change:
+    p: 0.01
+  neuro_speech_vision:
+    p: 0.01

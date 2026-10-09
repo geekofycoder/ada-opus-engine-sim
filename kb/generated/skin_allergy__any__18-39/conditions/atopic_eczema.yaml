@@ -1,0 +1,56 @@
+id: atopic_eczema
+name: Eczema (atopic dermatitis)
+prior: 0.15
+must_not_miss: false
+choices:
+  rash_location:
+  - 0.1
+  - 0.08
+  - 0.55
+  - 0.2
+  - 0.02
+  - 0.05
+  rash_duration:
+  - 0.03
+  - 0.07
+  - 0.15
+  - 0.25
+  - 0.5
+  spot_lifespan:
+  - 0.05
+  - 0.45
+  - 0.5
+findings:
+  itchy:
+    p: 0.97
+  itch_worse_at_night:
+    p: 0.7
+  scaly_patches:
+    p: 0.9
+  oozing_crusting:
+    p: 0.4
+  blisters:
+    p: 0.15
+  wheals_come_and_go:
+    p: 0.05
+    note: patches are fixed, not fleeting
+  ring_shaped_clear_centre:
+    p: 0.05
+  hot_tender_area:
+    p: 0.07
+  fever:
+    p: 0.03
+  mouth_or_eye_sores:
+    p: 0.02
+  skin_peeling_sheets:
+    p: 0.02
+  new_medication:
+    p: 0.07
+  new_contact_product:
+    p: 0.2
+  household_itchy:
+    p: 0.1
+  herald_patch:
+    p: 0.02
+  swollen_lips_or_eyelids:
+    p: 0.03

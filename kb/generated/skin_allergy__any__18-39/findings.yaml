@@ -1,0 +1,99 @@
+rash_location:
+  type: choice
+  question: Where is most of your rash?
+  definition: Pick the single area where the rash is worst or started.
+  options:
+    face_scalp: Face, scalp or ears
+    trunk_back: Chest, stomach or back
+    arms_legs: Arms or legs
+    hands_feet: Hands, fingers or feet
+    groin_armpits: Groin, buttocks or armpits
+    all_over: Spread widely over most of the body
+rash_duration:
+  type: choice
+  question: How long have you had this rash?
+  definition: Time since the very first spot appeared.
+  options:
+    under_1_day: Less than one day
+    one_to_three_days: 1 to 3 days
+    four_to_fourteen_days: 4 to 14 days
+    two_to_eight_weeks: 2 to 8 weeks
+    over_two_months: More than 2 months
+spot_lifespan:
+  type: choice
+  question: How long does one individual spot or patch last before it fades?
+  definition: Follow a single spot, not the whole rash.
+  options:
+    less_than_a_day: It fades within 24 hours and moves elsewhere
+    few_days_to_weeks: A few days to a few weeks
+    over_a_month: The same patch has stayed for over a month
+itchy:
+  type: noul
+  question: Is the rash itchy?
+  definition: Any itch that makes you want to scratch.
+itch_worse_at_night:
+  type: noul
+  question: Is the itch much worse at night, enough to wake you?
+  definition: Itching that is clearly worse in bed than during the day.
+wheals_come_and_go:
+  type: noul
+  question: Are there raised welts that appear and disappear within hours, moving
+    around?
+  definition: Raised pink swollen patches (hives) that vanish from one spot and pop
+    up in another.
+swollen_lips_or_eyelids:
+  type: noul
+  question: Have your lips, eyelids or tongue swollen up?
+  definition: Puffy deep swelling of the face, lips or tongue.
+blisters:
+  type: noul
+  question: Are there fluid-filled blisters?
+  definition: Small or large bubbles of clear fluid in the skin.
+scaly_patches:
+  type: noul
+  question: Are the patches dry, scaly or flaky?
+  definition: Skin that flakes, peels finely or feels rough and dry.
+ring_shaped_clear_centre:
+  type: noul
+  question: Are any patches ring-shaped with a clearer middle and a raised scaly edge?
+  definition: A circle of rash where the centre looks more normal than the rim.
+oozing_crusting:
+  type: noul
+  question: Is the rash weeping, oozing or forming yellow crusts?
+  definition: Fluid leaking from the skin or honey-coloured scabs.
+hot_tender_area:
+  type: noul
+  question: Is one area of skin hot, painful and swollen rather than itchy?
+  definition: A single spreading red area that hurts to touch and feels warm.
+fever:
+  type: noul
+  question: "Have you had a fever (temperature over 38\xB0C / 100.4\xB0F)?"
+  definition: A measured or clearly felt fever with chills since the rash began.
+mouth_or_eye_sores:
+  type: noul
+  question: Do you have sores or raw areas in your mouth, eyes or genitals?
+  definition: Painful ulcers or redness on the moist linings, not just the skin.
+skin_peeling_sheets:
+  type: noul
+  question: Is your skin peeling off in sheets or does it blister when rubbed?
+  definition: Large areas of top skin coming away leaving raw red skin underneath.
+new_medication:
+  type: noul
+  question: Did you start a new medicine, antibiotic or supplement in the 2 weeks
+    before the rash?
+  definition: Any new prescribed or over-the-counter drug taken before the rash started.
+new_contact_product:
+  type: noul
+  question: Did the rash start where a new product, metal, plant or chemical touched
+    your skin?
+  definition: A new cream, soap, jewellery, glove, plant or workplace chemical contacted
+    that exact area.
+household_itchy:
+  type: noul
+  question: Is someone you live with or sleep with also itchy?
+  definition: A partner, housemate or family member has developed itching too.
+herald_patch:
+  type: noul
+  question: Did one single larger oval patch appear days before the rest of the rash?
+  definition: One bigger scaly oval spot that came first, followed later by many smaller
+    ones.

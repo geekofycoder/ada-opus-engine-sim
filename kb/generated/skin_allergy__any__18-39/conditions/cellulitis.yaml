@@ -1,0 +1,55 @@
+id: cellulitis
+name: Cellulitis (skin infection)
+prior: 0.06
+must_not_miss: true
+choices:
+  rash_location:
+  - 0.1
+  - 0.05
+  - 0.65
+  - 0.15
+  - 0.03
+  - 0.02
+  rash_duration:
+  - 0.25
+  - 0.45
+  - 0.22
+  - 0.06
+  - 0.02
+  spot_lifespan:
+  - 0.05
+  - 0.85
+  - 0.1
+findings:
+  hot_tender_area:
+    p: 0.95
+    note: hot painful spreading area, not itch - the discriminator
+  fever:
+    p: 0.4
+  itchy:
+    p: 0.1
+    note: itch is unusual, pain dominates
+  scaly_patches:
+    p: 0.05
+  blisters:
+    p: 0.1
+  oozing_crusting:
+    p: 0.15
+  wheals_come_and_go:
+    p: 0.02
+  ring_shaped_clear_centre:
+    p: 0.03
+  mouth_or_eye_sores:
+    p: 0.01
+  skin_peeling_sheets:
+    p: 0.05
+  new_medication:
+    p: 0.05
+  new_contact_product:
+    p: 0.05
+  itch_worse_at_night:
+    p: 0.05
+  household_itchy:
+    p: 0.02
+  herald_patch:
+    p: 0.01

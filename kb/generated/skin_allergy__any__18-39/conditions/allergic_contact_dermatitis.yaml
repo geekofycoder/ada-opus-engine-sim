@@ -1,0 +1,54 @@
+id: allergic_contact_dermatitis
+name: Contact dermatitis (allergic reaction to something touching the skin)
+prior: 0.14
+must_not_miss: false
+choices:
+  rash_location:
+  - 0.15
+  - 0.15
+  - 0.25
+  - 0.35
+  - 0.05
+  - 0.05
+  rash_duration:
+  - 0.1
+  - 0.3
+  - 0.35
+  - 0.18
+  - 0.07
+  spot_lifespan:
+  - 0.05
+  - 0.7
+  - 0.25
+findings:
+  itchy:
+    p: 0.9
+  new_contact_product:
+    p: 0.85
+    note: exposure history is the discriminator
+  blisters:
+    p: 0.5
+  scaly_patches:
+    p: 0.55
+  oozing_crusting:
+    p: 0.35
+  wheals_come_and_go:
+    p: 0.05
+  ring_shaped_clear_centre:
+    p: 0.05
+  hot_tender_area:
+    p: 0.1
+  fever:
+    p: 0.02
+  mouth_or_eye_sores:
+    p: 0.02
+  skin_peeling_sheets:
+    p: 0.1
+  new_medication:
+    p: 0.05
+  itch_worse_at_night:
+    p: 0.3
+  household_itchy:
+    p: 0.03
+  herald_patch:
+    p: 0.01

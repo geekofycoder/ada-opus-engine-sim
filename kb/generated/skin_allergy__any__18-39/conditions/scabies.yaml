@@ -1,0 +1,56 @@
+id: scabies
+name: Scabies (mite infestation)
+prior: 0.07
+must_not_miss: false
+choices:
+  rash_location:
+  - 0.02
+  - 0.15
+  - 0.25
+  - 0.35
+  - 0.2
+  - 0.03
+  rash_duration:
+  - 0.02
+  - 0.08
+  - 0.25
+  - 0.4
+  - 0.25
+  spot_lifespan:
+  - 0.05
+  - 0.55
+  - 0.4
+findings:
+  itchy:
+    p: 0.98
+  itch_worse_at_night:
+    p: 0.9
+    note: intense night itch is classic
+  household_itchy:
+    p: 0.55
+    note: contacts itch too - strongest separator
+  scaly_patches:
+    p: 0.3
+  blisters:
+    p: 0.2
+  oozing_crusting:
+    p: 0.2
+    note: from scratching
+  ring_shaped_clear_centre:
+    p: 0.05
+  wheals_come_and_go:
+    p: 0.1
+  hot_tender_area:
+    p: 0.05
+  fever:
+    p: 0.02
+  new_medication:
+    p: 0.03
+  new_contact_product:
+    p: 0.05
+  mouth_or_eye_sores:
+    p: 0.01
+  skin_peeling_sheets:
+    p: 0.03
+  herald_patch:
+    p: 0.02
